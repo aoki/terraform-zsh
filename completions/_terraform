@@ -159,3 +159,6 @@ case "$words[1]" in
   taint)
     __taint ;;
 esac
+
+#compdef _terraform_cmds terraform
+#compdef _terraform_cmds tf
